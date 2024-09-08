@@ -1,0 +1,207 @@
+.body {
+    background-image: url(../img/corredores.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    color: white;
+    background-color: black;
+    border: 4px solid green;
+    text-align: center;
+    font-size: 40px;
+    padding: 0%;
+    margin-top: 0%;
+    margin-left: 0%;
+    width: 1200px;
+}
+
+.card {
+    position: relative;
+    margin-left: 35%;
+    background-color: #30344c;
+    padding: 1em;
+    z-index: 5;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 300px;
+    transition: 200ms ease-in-out;
+}
+
+.username {
+    color: #C6E1ED;
+    font-size: 0.85em;
+    font-weight: 600;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.body .text {
+    margin: 0 10px 0 0;
+    white-space: pre-line;
+    color: #c0c3d7;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    color: #9fa4aa;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    margin-top: 10px;
+}
+
+.footer div {
+    margin-right: 1rem;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer svg {
+    margin-right: 5px;
+    height: 100%;
+    stroke: #9fa4aa;
+}
+
+.viewer span {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(28, 117, 219);
+    margin-right: -6px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 8px;
+    color: #fff;
+    padding: 2px;
+}
+
+.viewer span svg {
+    stroke: #fff;
+}
+
+.rodape {
+    padding-bottom: 0%;
+    padding-left: 30%;
+    bottom: 1%;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 800px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    position: static;
+    background-color: white;
+}
+
+.p1 {
+    background-color: #6773b5;
+    opacity: 0, 5;
+    border: 2px solid black;
+    color: white;
+    overflow: scroll;
+    width: 450px;
+    height: 250px;
+    text-align: center;
+}
+
+.p1:hover {
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    overflow: scroll;
+    width: 450px;
+    height: 250px;
+
+}
+
+.p1 img {
+    float: left;
+
+}
+
+.inicio {
+    background: black;
+    color: white;
+    border: 3px solid white;
+    width: 100px;
+    height: 25px;
+    margin: auto;
+    padding-left: 0%;
+    padding-top: 0%;
+    text-align: center;
+}
+#area
+{
+  position:static;
+  left:37%;
+  top:10em;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:static;
+  display:block;
+}
+
+
+fieldset
+{
+  background-color:#A7C0DC;
+  width:300px;
+  height:250px;
+}
+legend
+{
+  font-weight:bold;
+  font-family: "Segoe UI","Arial","Times New Roman";
+}
+#formulario label
+{
+  position:static;
+  left:19px;
+  margin-right:5px;
+}
+#formulario input.campo_nome
+{
+  background-color:white;
+  position:static;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.campo_email
+{
+    background-color:white;
+  position:static;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+#formulario textarea.msg
+{
+  position:static;
+  background-color:white;
+}
+
+#formulario input.btn_submit
+{
+  border-style:dashed;
+  position:static;
+  bottom: 0.5em;
+  right:10px;
+  background-color:green;
+}
